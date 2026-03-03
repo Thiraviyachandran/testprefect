@@ -19,7 +19,7 @@ push: null
 # this project in remote locations
 pull:
 - prefect.deployments.steps.set_working_directory:
-    directory: https://github.com/Thiraviyachandran/testprefect
+    directory: https://github.com/Thiraviyachandran/testprefect.git
 
 # the deployments section allows you to provide configuration
 # for deploying flows
